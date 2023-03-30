@@ -1,0 +1,8 @@
+<div class="image-slideshow-box">
+    <img [class.zoom-animation]="playAnimation" src="./assets/img/slideshow/slide_{{ currentImage }}.png">
+    <div class="slideshow-text-box">
+        <div [class.fadeInAnimation]="playAnimation">{{ slideshowText[currentImage] }}</div>
+    </div>
+
+    <div class="black-background"></div>
+</div>
