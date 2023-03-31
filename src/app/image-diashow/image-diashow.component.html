@@ -1,0 +1,8 @@
+<div class="image-slideshow-box">
+    <img *ngIf="playAnimation" src="./assets/img/slideshow/slide_{{ currentImage }}.png">
+    <div class="slideshow-text-box">
+        <div *ngIf="playAnimation">{{ slideshowText[currentImage] }}</div>
+    </div>
+
+    <div class="black-background"></div>
+</div>
